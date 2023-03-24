@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color:rgb(247, 238, 238) ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ .logo{
+height: 50px;
+width: 50px;
+border-radius: 70%;
+}
+li{
+  list-style: none;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+button{
+  background-color: aqua;
+  padding: 4px 10px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: 600;
+  width: fit-content;
+}
+button:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 500;
+}
+nav ul li:hover{
+  text-decoration: underline;
+  font-weight: 900;
+}
+.searh-field{
+  display: flex;
+  gap: 35px;
+}
+input{
+  padding: 4px 10px;
+
+}
+.hero-section{
+  display: flex;
+  align-items: center;
+}
+.hero-left-section h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  align-items: center;
+ 
+  margin: 4%;
+}
+.hero-left-section h1 span{
+  color: rgb(239, 15, 48);
+  font-weight: 500;
+  font-size: 2.5 rem;
+  
+}
+.hero-left-section p{
+  font-weight: 500;
+margin: 4%;
+}
+.hero-left-section p span{
+  font-weight: 500;
+  font-size: 25px;
+  color: rgb(239, 15, 48);
+}
+.hero-right-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  justify-content: center;
+}
+.hero-right-section-btns{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding: 2%;
+}
+.hero-right-section img{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+footer{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  justify-content: space-around;
+
+}
+footer p{
+  font-weight: 800;
+
+}
+footer ul{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+ooter ul li a i:hover{
+  text-decoration: underline;
+  font-weight: bold;
+
+}
